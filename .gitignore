@@ -1,0 +1,38 @@
+# Ignore raw PCAP files
+data/raw/
+*.pcap
+*.pcapng
+
+# Ignore temporary or intermediate processed data
+data/processed/*.csv
+data/processed/*.log
+*.tmp
+*.bak
+
+# Ignore SQLite databases (optional)
+*.sqlite
+*.db
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+
+# Virtual environments
+.env/
+.venv/
+env/
+venv/
+
+# VSCode & other IDEs
+.vscode/
+.idea/
+
+# OS junk
+.DS_Store
+Thumbs.db
