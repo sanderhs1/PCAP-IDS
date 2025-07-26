@@ -36,3 +36,8 @@ venv/
 # OS junk
 .DS_Store
 Thumbs.db
+
+# Ignore any CSV exports or database files
+*.csv
+*.db
+*.sqlite
